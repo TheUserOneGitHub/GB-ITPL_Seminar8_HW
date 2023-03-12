@@ -59,6 +59,8 @@ int n = Convert.ToInt32(Console.ReadLine());
 double[,] array = new double[m, n];
 
 FillAray(array);
+Console.WriteLine("Original array:");
 PrintArray(array);
 SortArray(array, m, n);
+Console.WriteLine("Sorted array:");
 PrintArray(array);

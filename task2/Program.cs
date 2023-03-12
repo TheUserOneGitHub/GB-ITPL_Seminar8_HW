@@ -6,7 +6,7 @@ void FillAray(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(-1, 1);
+            array[i, j] = new Random().Next(-10, 11);
         }
     }
 }
@@ -78,7 +78,7 @@ void LowestSum(double[] arrayRowsSums)
     {
         if (arrayRowsSums[i] == min)
         {
-            Console.Write($"{i}, ");
+            Console.Write($"{i} (first row is row number 0) ");
         }
     }
 }
